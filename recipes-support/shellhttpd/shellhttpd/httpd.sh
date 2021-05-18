@@ -1,7 +1,7 @@
 #!/bin/sh -e
 
-PORT="${PORT-8080}"
-MSG="${MSG-OK}"
+PORT="${PORT-8090}"
+MSG="${MSG-Hello from Shellhttpd Recipe}"
 
 RESPONSE="HTTP/1.1 200 OK\r\n\r\n${MSG}\r\n"
 
